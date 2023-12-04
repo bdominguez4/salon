@@ -1,0 +1,112 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Alemans Grooming Salon</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="cutepuppy.png" length="100" width="100" style="float:right ">
+						<img src="cutepuppy.png" length="100" width="100" style="float:left ">
+						<h1 style="text-align:center;">Alemans Grooming Salon</h1>
+					</div>
+				</div>
+			</div>			
+		</header>
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+		  <div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navigation" aria-controls="main-navigation" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+			  <div class="navbar-nav">
+				<a class="nav-link active" aria-current="page" href="Homefinal.html">Home</a>
+				<a class="nav-link" href="AboutUsFinal.html">About Us</a>
+				<a class="nav-link" href="ContactUsFinal.html">Contact Us</a>
+			  </div>
+			</div>
+		  </div>
+		</nav>
+		
+		<main>
+		<p> Feel free to send us a message!</p>
+		<div class="container">
+		<div class="row">
+		<div class="col">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+	<label for="phonenum">Phone Number</label>
+    <input type="text" id="phonenum" name="phonenum" placeholder="Your phone number..">
+
+	 <label for="pname">Pet Name</label>
+    <input type="text" id="pname" name="petname" placeholder="Your pet's name..">
+	
+	 <label for="petbreed">Pet Breed</label>
+    <input type="text" id="petbreed" name="petbreed" placeholder="Your pet's breed..">
+	
+    <label for="reason">Reasoning</label>
+    <select id="reason" name="reason">
+      <option value="Appointment">Appointment</option>
+      <option value="Complain">Complain</option>
+      <option value="Question">Question</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+   </form>
+</div>
+</div>
+</div>
+				<div class="container">
+				<div class="row">
+				<div class="col-6">
+				<h2>Contact Information</h2>
+				Alemans Grooming Salon:<br>
+				2610 S Kedvale Ave. Chicago,IL, 60623<br>
+				Phone Number: (773)790-0971<br>
+				Email Address: alemangroomingsalon@gmail.com
+				</div>
+				
+				<div class="col" style="width:300px;">
+				<h2 style="center;">Hours of Operation</h2>
+				<ul class="list-group">
+					<li class="list-group-item" align="center">Monday: 10am - 5pm </li>
+					<li class="list-group-item" align="center">Tuesday: Closed</li>
+					<li class="list-group-item" align="center">Wednesday: 10am - 5pm </li>
+					<li class="list-group-item" align="center">Thursday: 10am - 5pm </li>
+					<li class="list-group-item" align="center">Friday: 10am - 5pm </li>
+					<li class="list-group-item" align="center">Saturday: 8am - 5pm</li>
+					<li class="list-group-item" align="center">Sunday: 9am - 5pm</li>
+				</ul>
+				</div>
+				<form>
+				<input type="button" value="Back" onclick="history.back()">
+				</form>
+		</main>
+		
+		<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						Copyright &copy; 2023. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	</body>
+</html>
